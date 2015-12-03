@@ -5,12 +5,35 @@ package main;
  */
 public class NPC {
 
-    String firstName;
-    String surname;
-    String race;
+    private String firstName;
+    private String surname;
+    private String race;
 
-    NPC(){
+    public NPC(){
 
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public String getRace() {
+        return race;
+    }
+
+    public void setRace(String race) {
+        this.race = race;
+    }
 }
