@@ -30,7 +30,7 @@ public class NPC {
     private String npcClass;
     private String apparel;
     private String sex;
-    
+
     //Are these lists? Is that right? Sets maybe? idk...
     private List<String> languages;
     private List<String> scars;
