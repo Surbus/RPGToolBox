@@ -30,6 +30,7 @@ public class NPC {
     private String npcClass;
     private String apparel;
     private String sex;
+    private String title;
 
     //Are these lists? Is that right? Sets maybe? idk...
     private List<String> languages;
@@ -247,5 +248,13 @@ public class NPC {
 
     public void setTattoos(List<String> tattoos) {
         this.tattoos = tattoos;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 }
