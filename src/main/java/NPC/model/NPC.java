@@ -1,4 +1,4 @@
-package main;
+package main.java.NPC.model;
 
 import java.util.List;
 
@@ -31,6 +31,7 @@ public class NPC {
     private String apparel;
     private String sex;
     private String title;
+    private String npcId;
 
     //Are these lists? Is that right? Sets maybe? idk...
     private List<String> languages;
@@ -256,5 +257,13 @@ public class NPC {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public String getNpcId() {
+        return npcId;
+    }
+
+    public void setNpcId(String npcId) {
+        this.npcId = npcId;
     }
 }
